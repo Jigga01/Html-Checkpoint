@@ -1,7 +1,7 @@
 # Html-Checkpoint
 
-1- Create the navbar: home, about, work, resume, contact
+I Created the navbar: home, about, work, resume, contact
 
-2- Create the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) 
+I Created the “about” section, ”work” section, ”resume” section, and ”contact” section (using HTML Forms) 
 
-3- Create the page footer.
+I Created the page footer.
