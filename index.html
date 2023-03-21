@@ -1,136 +1,84 @@
-<!Doctype Html>  
-<Html>     
-<Head>      
-<Title>     
-Html Checkpoint</Title>  
-<link rel="shortcut icon" href="images/index.png" type="image/x-icon" />
-<style>
-  .footer {
-     position:
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     background-color: red;
-     color: white;
-     text-align: center;
-  }
-  </style>
-<style type=text/css>   
-body   
-{  
-height: 125vh;  
-margin-top: 80px;  
-padding: 30px;  
-background-size: cover;  
-font-family: sans-serif;  
-}  
-header {  
-background-color: rgb(0, 255, 17);  
-position:;  
-left: 0;  
-right: 0;  
-top: 5px;  
-height: 30px;  
-display: flex;  
-align-items: center;  
-box-shadow: 0 0 25px 0 black;  
-}  
-header * {  
-display: inline;  
-}  
-header li {  
-margin: 20px;  
-}  
-header li a {  
-color: blue;  
-text-decoration: none;  
-}  
-</style>   
-</Head>  
-<Body>   
-<header>  
-<nav>  
-<ul>  
-<li>  
-<a href="#"> Home </a>  
-</li>  
-<li>  
-<a href="#"> About </a>  
-</li>  
-<li>  
-<a href="#"> Contact </a>  
-</li>  
-<li> <a href="#"> Work</a>  
-</li>  
-<li>  
-<a href="#"> Resume</a>  
-</li>  
-</ul>  
-</nav>  
-</header>  
-<h1 id="top">Html Demo</h1>
-<a href="#bottom">Go to bottom</a>
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet mollitia
-  placeat eaque voluptate beatae consequatur nesciunt assumenda eum
-  blanditiis, non dicta minima ea facere laboriosam consequuntur maiores
-  excepturi sunt natus. Lorem ipsum dolor sit amet, consectetur adipisicing
-  elit. Nesciunt quidem ipsa nobis! Voluptate sequi mollitia ducimus neque
-  reprehenderit nemo accusantium tempora labore nulla voluptatibus id
-  deserunt, velit vero, rerum fugit tempore fuga amet sit enim? Ipsum
-  minima, nam, pariatur sequi iusto eaque neque illum vitae ea dolorem
-  ratione nobis molestias autem eius! Voluptas quidem temporibus quas
-  recusandae quo ab ipsa velit, blanditiis hic ducimus error, similique
-  earum! Labore cumque autem animi nam architecto deleniti, optio totam,
-  nihil tenetur odit commodi obcaecati harum molestias dolorem quis
-  perspiciatis a in ab consequuntur nulla velit recusandae. Provident
-  ratione distinctio hic laborum sit, ex assumenda error dolores qui
-  voluptas voluptatum vero quibusdam illo
-<!-- place holder image -->
-<p></p>
- 
-<a href="https://gomycode.com/">
-  <img
-    src="images/70b6bbaf.f10.webp"
-    alt="scenery"
-    style="width: 200px; height: 200px"
-/></a>
-<p>
-    
-    <iframe
-    width="300"
-    height="300"
-    src="https://www.youtube.com/embed/zcTFG_F0FRs"
-></iframe>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Checkpoint</title>
+  <link rel="shortcut icon" href="images/index.png" type="image/x-icon">
+</head>
+<body>
+  <header style="height: 60px; background-color: rgb(255, 255, 255); display: flex; justify-content: space-between">
+    <img src="images/olanrewaju.jpg" alt="portfolio logo" id="brand-logo">
+    <nav>
+      <ul style="display: flex;">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  </header>
+  <main>
+    <section id="home" style="background-color: rgb(231, 157, 157); display: flex;">
+     <div>
+      <h1>Home Section</h1>
+      <form action="https://formspree.io/f/mnqybjow" method="POST">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Firstname"><br><br>
 
-<section>
-  <h2>About</h2>
-  <p>My name is Sanni Olanrewaju, I'm a student of gomycode and this is my html checkpoint</p>
-  <section>
-    <h2>Work</h2>
-    <p>I'm creating Create the “about” section, ”work” section, ”resume” section, and ”contact” section</p>
-    <section>
-      <h2>Resume</h2>
-      <p>Resume to be updated shortly</p>
-      <section>
-        <h2>Contact</h2>
-        <form action="/action_page.php">
-          <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname" value="John"><br>
-          <label for="lname">Last name:</label><br>
-          <input type="text" id="lname" name="lname" value="Doe"><br>
-          <label for="Contact">Email:</label><br>
-          <input type="text" id="Contact" name="Email" value=""><br><br>
-          <input type="submit" value="Submit">
-        </form> 
-        
-        <p>If you click the "Submit" button, the form-data will be sent to us.</p>
-        
-<a href="#top">Go to top</a>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Lastname"><br><br>
 
-<div class="footer">
-  <p>Gomycode</p>
-</div>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Password"><br><br>
+
+        <input type="submit" value="Submit">
+      </form> 
+     </div>
+     <div>
+      <img src="https://themebing.com/wp/amike/wp-content/uploads/2019/12/man-01.png" alt="hero image">
+     </div>
+    </section>
+
+    <section id="services" style="height: 600px; background-color: rgb(202, 150, 150);">
+      <h1>Services Section</h1>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+
+    <section id="about" style="height: 600px; background-color: rgb(168, 198, 159);">
+      <h1>About Section</h1>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+
+    <section id="skills" style="height: 600px; background-color: rgb(153, 23, 189);">
+      <h1>Skills Section</h1>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+
+    <section id="portfolio" style="height: 600px; background-color: rgb(64, 132, 121);">
+      <h1>Portfolio Section</h1>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+
+    <section id="blog" style="height: 600px; background-color: rgba(166, 182, 218, 0.37);">
+      <h1>Blog Section</h1>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+
+    <section id="contact" style="height: 600px; background-color: rgb(200, 4, 4);">
+      <h1>Contact Section</h1>
+      <p>Lorem ipsum dolor sit amet</p>
+    </section>
+  </main>
+
+  <footer> 
+    <p>Footer</p>
+  </footer>
 </body>
-</Html>  
+</html>
