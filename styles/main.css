@@ -1,0 +1,107 @@
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(31,34,53);
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.horizontal img{width: 120px;}
+
+.navbar{
+    margin: 0 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar > a:hover{
+    color: rgb(220, 22, 22);
+    font-size: 18px;
+}
+
+.navbar > a {
+    color: white;
+    text-decoration: none;}
+
+#home {
+    background-color: rgb(35,38,58);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+#brand-logo {
+    margin-left: 60px;
+}
+
+
+
+.social-icon { 
+    width: 25px;
+    height: 25px;
+    border: 2px solid #e42323;
+    border-radius: 50px;
+    margin-right: 20px; 
+    color: white;
+    /* justify-content: space-between; */
+    padding: 22px;
+    font-size: 30px;
+
+}
+
+.social-icon:hover {
+    background-color: #e42323;
+}
+
+
+#name{
+    color: rgb(255,255,255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+   
+}
+
+
+.hero-img {
+    margin-left: 20%;
+}
+
+#p1 {
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5px;
+}
+
+
+
+#bttn {
+
+    justify-content: space-between;
+    border-style: solid 3px red;
+    border-radius: 100px;
+    border: solid red 2.5px;
+    font-size: 20px;
+    background-color:rgb(35,38,58); 
+    color: white;
+    height: 85px;
+    padding: 30px;
+    
+}
+
+.social-icon2 {
+font-size: 100px;
+color: #e42323;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+

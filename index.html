@@ -5,43 +5,44 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Html Checkpoint</title>
-  <link rel="shortcut icon" href="images/index.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/amike icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+
 </head>
 <body>
-  <header style="height: 60px; background-color: rgb(255, 255, 255); display: flex; justify-content: space-between">
-    <img src="images/olanrewaju.jpg" alt="portfolio logo" id="brand-logo">
+  <header class="horizontal">
+    <img src="images/amike icon.png" alt="portfolio logo" id="brand-logo">
     <nav>
-      <ul style="display: flex;">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul class="horizontal">
+        <li class="navbar"><a href="#home">Home</a></li>
+        <li class="navbar"><a href="#services">Services</a></li>
+        <li class="navbar"><a href="#about">About</a></li>
+        <li class="navbar"><a href="#skills">Skills</a></li>
+        <li class="navbar"><a href="#portfolio">Portfolio</a></li>
+        <li class="navbar"><a href="#blog">Blog</a></li>
+        <li class="navbar"><a href="#contact">Contact</a></li>
       </ul>
   </header>
   <main>
-    <section id="home" style="background-color: rgb(231, 157, 157); display: flex;">
-     <div>
-      <h1>Home Section</h1>
-      <form action="https://formspree.io/f/mnqybjow" method="POST">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" placeholder="Firstname"><br><br>
+    <section id="home">
+     <div class="page-text"> 
+      <div class="social-btn">
+        <i class="fa-brands fa-twitter social-icon"></i>
+        <i class="fa-brands fa-facebook-f social-icon"></i>
+        <i class="fa-brands fa-pinterest social-icon"></i>
+        <i class="fa-brands fa-instagram social-icon"></i>
+        <i class="fa-brands fa-behance social-icon"></i>
+      </div>
 
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" placeholder="Lastname"><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" placeholder="Email"><br><br>
-
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password" placeholder="Password"><br><br>
-
-        <input type="submit" value="Submit">
-      </form> 
+      <h1 id="name">I am Sanni Olanrewaju</h1>
+      <p id="p1">I'm Olanrewaju, professional web developer with long time experience in this field​</p>
+      
+      <button id="bttn">My Portfolio</button>
+      <i class="fa-brands fa-youtube social-icon2"></i>
      </div>
-     <div>
+     
+     <div class="hero-img">
       <img src="https://themebing.com/wp/amike/wp-content/uploads/2019/12/man-01.png" alt="hero image">
      </div>
     </section>
@@ -79,7 +80,24 @@
     </section>
 
     <section id="contact" style="height: 600px; background-color: rgb(200, 4, 4);">
-      <h1>Contact Section</h1>
+      <div>
+        <h1>Contact Section</h1>
+        <form action="https://formspree.io/f/mnqybjow" method="POST">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Firstname"><br><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Lastname"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Password"><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+     </div>
       <p>Lorem ipsum dolor sit amet</p>
     </section>
   </main>
