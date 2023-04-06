@@ -1,23 +1,30 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .horizontal{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(31,34,53);
-    text-decoration: none;
     position: sticky;
     top: 0;
-    height: 80px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-family: 'poppins';
     font-weight: bold;
+    padding: 16px 45px;
 }
 
 .horizontal img{width: 120px;}
 
 .navbar{
-    margin: 0 15px;
     list-style: none;
     text-decoration: none;
+    margin-right: 30px;
+    padding: 8px 0px;
 }
 
 .navbar > a:hover{
@@ -35,56 +42,58 @@
     justify-content: space-between;
     align-items: center;
     padding: 70px;
-}
-
-#brand-logo {
-    margin-left: 60px;
+    font-family: 'poppins';
 }
 
 
 
 .social-icon { 
-    width: 25px;
-    height: 25px;
     border: 2px solid #e42323;
     border-radius: 50px;
     margin-right: 20px; 
     color: white;
     /* justify-content: space-between; */
-    padding: 22px;
-    font-size: 30px;
-
+    padding: 25px;
+    font-size: 20px;
+  
 }
+
 
 .social-icon:hover {
     background-color: #e42323;
 }
 
 
-#name{
+#name {
     color: rgb(255,255,255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-   
+    font-family: 'poppins';
+    font-size: 40px;
+    /* font-weight: 900; */
+    margin: 40px 0 30px;  
 }
 
-
 .hero-img {
-    margin-left: 20%;
+    margin-left: 10px;  
+}
+
+.hero-img > img {
+    width: 100%;
+    height: auto;
 }
 
 #p1 {
     font-size: 30px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 5px;
+    font-family: 'poppins';
+    font-weight: 1px;
+    font-size: 26px;
 }
 
 
 
-#bttn {
+.homebttn {
 
-    justify-content: space-between;
+    /* justify-content: space-between;
     border-style: solid 3px red;
     border-radius: 100px;
     border: solid red 2.5px;
@@ -92,16 +101,42 @@
     background-color:rgb(35,38,58); 
     color: white;
     height: 85px;
-    padding: 30px;
-    
-}
-
-.social-icon2 {
-font-size: 100px;
-color: #e42323;
-width: 100px;
-height: 100px;
-border-radius: 50%;
+    padding: 30px; */
+    display: flex;
+    background-color:transparent;
+    margin-top: 40px;
 
 }
 
+.homebttn #bttn{
+    color: white;
+    border: solid red 2.5px;
+    border-radius:90px;
+    background: transparent;
+    font-size: 25px;
+    height: 70px;
+    width: 200px;
+    padding: 20px;
+  margin: 10px;
+  
+}
+
+.homebttn #bttn1{
+    color: white;
+    border: solid red 2.5px;
+    border-radius:90px;
+    background: transparent;
+    background-color: #e42323;
+    font-size: 25px;
+    height: 70px;
+    width: 200px;
+    padding: 20px;
+  margin: 10px;
+  border-color: #e42323;
+color: white;
+
+}
+
+.homebttn #bttn:hover {
+    background-color: #e42323;
+}
